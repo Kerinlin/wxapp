@@ -56,7 +56,7 @@
             <text class="shareText">分享</text>
             <image class="save " src="{{isClick?'../../youzan-image/save-s.png':'../../youzan-image/save.png'}}" bindtap="haveSave"></image>
             <text class="saveText">{{isClick?'已收藏':'收藏'}}</text>
-            <button class="weui-btn" type="warn">投递简历</button>
+            <button class="weui-btn" type="warn" bindtap='deliver'>投递简历</button>
         </view>
     </view>
 </view>

@@ -17,6 +17,11 @@ Page({
       job: jobList[id]
     })
   },
+  deliver(){
+    wx.showToast({
+      title: '已投递',
+    });
+  },
   click(e) {
     let id = e.currentTarget.dataset.id;
     wx.navigateTo({
