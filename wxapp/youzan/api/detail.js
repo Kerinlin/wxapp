@@ -158,7 +158,6 @@ const jobList = [
             salary: '',
             time: ''
         }
-    },
-    
+    },   
 ]
 export default jobList
